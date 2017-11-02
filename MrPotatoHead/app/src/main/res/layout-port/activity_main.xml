@@ -164,6 +164,7 @@
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="@string/check_arms" />
 
             <CheckBox
@@ -171,6 +172,7 @@
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="@string/check_shoes" />
 
             <CheckBox
@@ -178,6 +180,7 @@
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="@string/check_glasses" />
 
             <CheckBox
@@ -185,6 +188,7 @@
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="@string/check_hat" />
 
             <CheckBox
@@ -192,11 +196,11 @@
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="@string/check_eyebrows" />
         </LinearLayout>
 
     </LinearLayout>
-
 
 </LinearLayout>
 
